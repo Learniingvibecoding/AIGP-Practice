@@ -1,0 +1,19 @@
+{
+  "paperId": "paper-04",
+  "title": "AIGP Mock Paper 4",
+  "minutes": 150,
+  "items": [
+    {
+      "id": "P4-Q001",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Under the EU AI Act, which systems are classified as high-risk?",
+      "options": ["All AI systems", "Systems used in critical infrastructure, employment, and essential services", "Only military AI systems", "Systems processing personal data"],
+      "correctIndex": 1,
+      "explanation": "The EU AI Act classifies systems as high-risk based on their use in critical areas like infrastructure, employment, healthcare, and essential services.",
+      "refs": ["Module 6: EU AI Act Risk Classifications"]
+    }
+  ],
+  "scenarios": {},
+  "_note": "This is a placeholder file. Replace with actual Paper 4 questions following the same structure as paper-01.json"
+}

@@ -1,0 +1,19 @@
+{
+  "paperId": "paper-05",
+  "title": "AIGP Mock Paper 5",
+  "minutes": 150,
+  "items": [
+    {
+      "id": "P5-Q001",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which framework provides guidance for AI risk management across organizations?",
+      "options": ["ISO 9001", "NIST AI Risk Management Framework", "GDPR", "SOX Compliance"],
+      "correctIndex": 1,
+      "explanation": "The NIST AI Risk Management Framework provides comprehensive guidance for managing AI risks across organizations.",
+      "refs": ["Module 7: NIST AI RMF"]
+    }
+  ],
+  "scenarios": {},
+  "_note": "This is a placeholder file. Replace with actual Paper 5 questions following the same structure as paper-01.json"
+}

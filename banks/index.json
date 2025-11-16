@@ -1,0 +1,40 @@
+{
+  "version": "2025.09.12",
+  "papers": [
+    { 
+      "id": "paper-01", 
+      "title": "AIGP Mock Paper 1 - Complete Exam", 
+      "minutes": 150, 
+      "questions": 100,
+      "description": "Complete 100-question AIGP certification practice exam covering all 7 modules"
+    },
+    {
+      "id": "paper-02",
+      "title": "AIGP Mock Paper 2 - EU AI Act Focus",
+      "minutes": 90,
+      "questions": 60,
+      "description": "60 questions focused on EU AI Act specifics, GPAI obligations, and enforcement"
+    },
+    {
+      "id": "paper-03",
+      "title": "AIGP Mock Paper 3 - Scenario Focus",
+      "minutes": 35,
+      "questions": 22,
+      "description": "22 scenario-based questions with detailed case studies across key domains"
+    },
+    { 
+      "id": "paper-04", 
+      "title": "AIGP Mock Paper 4 - Regulation Focus", 
+      "minutes": 15, 
+      "questions": 1,
+      "description": "Placeholder - Focus on global regulations and cross-jurisdictional compliance"
+    },
+    { 
+      "id": "paper-05", 
+      "title": "AIGP Mock Paper 5 - Comprehensive Review", 
+      "minutes": 15, 
+      "questions": 1,
+      "description": "Placeholder - Comprehensive review across all domains and frameworks"
+    }
+  ]
+}

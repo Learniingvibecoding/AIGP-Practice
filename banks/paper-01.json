@@ -1,0 +1,1057 @@
+{
+  "paperId": "paper-01",
+  "title": "AIGP Mock Paper 1",
+  "minutes": 150,
+  "items": [
+    {
+      "id": "P1-Q001",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT typically considered a core element found in common definitions of artificial intelligence?",
+      "options": ["Autonomy", "Human involvement/oversight", "Output generation or task performance", "Regulatory compliance"],
+      "correctIndex": 3,
+      "explanation": "Regulatory compliance is not a core definitional element of AI. The common elements include autonomy, human involvement/oversight, and output generation or task performance.",
+      "refs": ["Module 1: AI Foundations"]
+    },
+    {
+      "id": "P1-Q002",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "A hiring model trained on historical data rejects a higher percentage of qualified applicants from a protected group. Which category best describes the harm?",
+      "options": ["Individual harm", "Group harm", "Organizational harm", "Environmental harm"],
+      "correctIndex": 1,
+      "explanation": "This represents group harm as it systematically affects a protected group of people, not just individuals.",
+      "refs": ["Module 2: Harms Taxonomy"]
+    },
+    {
+      "id": "P1-Q003",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "A mid-size organization with multiple product lines wants consistency in AI policies but needs product teams to move quickly. Which governance structure is most appropriate?",
+      "options": ["Centralized governance team with all approvals routed through HQ", "Decentralized model with each product team setting its own policies", "Hybrid model with central standards plus embedded product liaisons", "External advisory board making binding decisions"],
+      "correctIndex": 2,
+      "explanation": "A hybrid model balances centralized oversight for consistency with decentralized flexibility for speed.",
+      "refs": ["Module 3: Governance Structures"]
+    },
+    {
+      "id": "P1-Q004",
+      "module": "Transparency Artifacts",
+      "scenarioId": null,
+      "stem": "Which artifact is primarily intended to disclose an AI model's intended use, performance metrics, evaluation conditions and limitations?",
+      "options": ["Data retention schedule", "Model card", "Incident response runbook", "System inventory"],
+      "correctIndex": 1,
+      "explanation": "Model cards are specifically designed to document model performance, intended use, limitations, and evaluation conditions.",
+      "refs": ["Module 4: Documentation Requirements"]
+    },
+    {
+      "id": "P1-Q005",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "What should be the first step when initiating an AI project to ensure governance is aligned?",
+      "options": ["Conduct an algorithmic impact assessment", "Define the business problem and intended use case", "Select a model architecture and training pipeline", "Draft vendor contracts and security addenda"],
+      "correctIndex": 1,
+      "explanation": "Defining the business problem and intended use case is the foundational first step before any technical or governance activities.",
+      "refs": ["Module 4: Project Planning"]
+    },
+    {
+      "id": "P1-Q006",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which practice is best suited to detect data drift in production (as opposed to concept drift)?",
+      "options": ["Monitoring model accuracy on periodically refreshed labeled test sets", "Comparing live input feature distributions to the training baseline", "Scheduling automatic retraining every two weeks", "Adding prompt guardrails to reduce unsafe outputs"],
+      "correctIndex": 1,
+      "explanation": "Data drift is detected by comparing input feature distributions between production and training data.",
+      "refs": ["Module 5: Drift Detection"]
+    },
+    {
+      "id": "P1-Q007",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-A",
+      "stem": "Before deployment, which assessment is most appropriate to systematically identify discrimination risks and mitigations?",
+      "options": ["Business ROI analysis", "Algorithmic impact assessment", "Penetration test", "Disaster recovery tabletop"],
+      "correctIndex": 1,
+      "explanation": "An algorithmic impact assessment systematically evaluates discrimination risks and identifies appropriate mitigations.",
+      "refs": ["Module 6: Risk Assessment"]
+    },
+    {
+      "id": "P1-Q008",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-A",
+      "stem": "Under the EU AI Act, when CareHire deploys a high-risk employment screening system from a vendor, which obligation is most clearly on the deployer?",
+      "options": ["Perform human oversight according to the provider's instructions", "Publish the model's full source code for public scrutiny", "Certify the provider's training data licenses in court", "Transfer all liability to the provider via contract"],
+      "correctIndex": 0,
+      "explanation": "Deployers must ensure human oversight according to provider instructions and maintain appropriate use of high-risk AI systems.",
+      "refs": ["Module 6: EU AI Act Deployer Obligations"]
+    },
+    {
+      "id": "P1-Q009",
+      "module": "Planning AI Projects",
+      "scenarioId": "SCEN-A",
+      "stem": "Which contract clause would best reduce governance risk for CareHire before launch?",
+      "options": ["Vendor will delete logs every 7 days.", "Vendor warrants 99.9% uptime.", "Vendor will provide detailed bias testing results, data documentation, and notice of material model changes prior to production use.", "Vendor may update models at any time without notice to maintain accuracy."],
+      "correctIndex": 2,
+      "explanation": "Requiring bias testing results, documentation, and change control provides essential governance oversight.",
+      "refs": ["Module 5: Vendor Management"]
+    },
+    {
+      "id": "P1-Q010",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT one of the four core functions of the NIST AI Risk Management Framework?",
+      "options": ["Map", "Measure", "Manage", "Monitor"],
+      "correctIndex": 3,
+      "explanation": "The NIST AI RMF has four functions: Map, Measure, Manage, and Govern (not Monitor).",
+      "refs": ["Module 7: NIST AI RMF"]
+    },
+    {
+      "id": "P1-Q011",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which of the following is a primary obligation of a deployer of an AI system, as distinct from a developer?",
+      "options": ["Documenting and justifying training dataset choices", "Writing incident response and escalation runbooks", "Providing clear user guidance on appropriate use and limitations", "Drafting procurement and supply chain contracts"],
+      "correctIndex": 2,
+      "explanation": "Deployers are responsible for ensuring safe use by providing clear user guidance on appropriate use and limitations.",
+      "refs": ["Module 3: Roles and Responsibilities"]
+    },
+    {
+      "id": "P1-Q012",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a recognized AI-specific risk assessment strategy?",
+      "options": ["Benchmarking", "Pre-deployment pilots", "Probability/severity matrix", "SWOT analysis"],
+      "correctIndex": 3,
+      "explanation": "SWOT analysis is a general business tool, not an AI-specific risk assessment strategy.",
+      "refs": ["Module 4: Risk Assessment Tools"]
+    },
+    {
+      "id": "P1-Q013",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment option typically involves reduced latency and stronger data privacy protections, but may be constrained by limited device resources?",
+      "options": ["Cloud-based deployment", "On-premise deployment", "Edge deployment", "Hybrid deployment"],
+      "correctIndex": 2,
+      "explanation": "Edge deployment runs on local devices, providing low latency and privacy but with hardware constraints.",
+      "refs": ["Module 5: Deployment Models"]
+    },
+    {
+      "id": "P1-Q014",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following systems would be classified as high-risk under the EU AI Act?",
+      "options": ["AI model predicting consumer product recommendations", "AI tool screening job applicants for employment", "AI-powered spam filter in email", "Generative AI system translating user documents"],
+      "correctIndex": 1,
+      "explanation": "Employment-related AI systems are explicitly listed as high-risk in Annex III of the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Risk Classifications"]
+    },
+    {
+      "id": "P1-Q015",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which jurisdiction has taken a rights-based rather than a risk-based approach to AI regulation?",
+      "options": ["European Union", "Canada", "China", "South Korea"],
+      "correctIndex": 2,
+      "explanation": "China has taken a rights-based approach focusing on user rights, content regulation, and transparency.",
+      "refs": ["Module 7: Global AI Regulation"]
+    },
+    {
+      "id": "P1-Q016",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-B",
+      "stem": "Under the EU AI Act, this credit scoring system would be categorized as:",
+      "options": ["Prohibited risk", "High risk", "Limited risk", "Minimal risk"],
+      "correctIndex": 1,
+      "explanation": "Credit scoring systems are explicitly listed as high-risk under Annex III of the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Risk Classifications"]
+    },
+    {
+      "id": "P1-Q017",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-B",
+      "stem": "Which of the following is a mandatory requirement for high-risk systems under the EU AI Act?",
+      "options": ["Providing conformity assessment and maintaining technical documentation", "Publishing all model weights and training datasets", "Offering financial compensation for all incorrect outputs", "Proving the model is completely bias-free"],
+      "correctIndex": 0,
+      "explanation": "High-risk AI systems must meet requirements including conformity assessment and technical documentation.",
+      "refs": ["Module 6: EU AI Act Compliance Requirements"]
+    },
+    {
+      "id": "P1-Q018",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-B",
+      "stem": "Under the GDPR, which principle is MOST directly relevant to limiting the collection of personal financial data for this AI system?",
+      "options": ["Data minimization", "Purpose limitation", "Storage limitation", "Right to erasure"],
+      "correctIndex": 0,
+      "explanation": "Data minimization requires collecting only the minimum necessary data for the defined purpose.",
+      "refs": ["Module 7: GDPR Principles"]
+    },
+    {
+      "id": "P1-Q019",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following is an example of a societal-level harm caused by AI?",
+      "options": ["Reputational damage to an organization", "Reduced employment opportunities for a subgroup", "Spread of disinformation undermining democratic processes", "A biased mortgage loan decision against an individual"],
+      "correctIndex": 2,
+      "explanation": "Societal harms impact democracy, trust in government, and social institutions broadly.",
+      "refs": ["Module 2: Harms Taxonomy"]
+    },
+    {
+      "id": "P1-Q020",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "The NIST AI Risk Management Framework (AI RMF) is built around four core functions. Which of the following is NOT one of them?",
+      "options": ["Map", "Measure", "Manage", "Monitor"],
+      "correctIndex": 3,
+      "explanation": "The NIST AI RMF has four functions: Map, Measure, Manage, and Govern (not Monitor).",
+      "refs": ["Module 7: NIST AI RMF"]
+    },
+    {
+      "id": "P1-Q021",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which of the following best describes a hybrid AI governance structure?",
+      "options": ["One central office approves all AI projects, regardless of business unit.", "Business units make independent AI decisions without central oversight.", "A central team sets policies, but embedded liaisons within business units adapt and apply them.", "External regulators serve as the main governance authority for AI decisions."],
+      "correctIndex": 2,
+      "explanation": "Hybrid governance balances central policy-setting with decentralized implementation through embedded liaisons.",
+      "refs": ["Module 3: Governance Structures"]
+    },
+    {
+      "id": "P1-Q022",
+      "module": "Transparency Artifacts",
+      "scenarioId": null,
+      "stem": "Which concept refers to the tracking of a dataset's origins, transformations, and history, ensuring integrity and transparency throughout the AI life cycle?",
+      "options": ["Data minimization", "Data lineage/provenance", "Data portability", "Data obfuscation"],
+      "correctIndex": 1,
+      "explanation": "Data lineage/provenance tracks dataset origins, transformations, and history for transparency and integrity.",
+      "refs": ["Module 4: Data Governance"]
+    },
+    {
+      "id": "P1-Q023",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Before an AI system goes live, which activity is MOST critical to ensure baseline performance expectations are met?",
+      "options": ["Vendor due diligence", "Readiness assessment", "Business ROI analysis", "Legal contract review"],
+      "correctIndex": 1,
+      "explanation": "A readiness assessment validates that the system meets baseline performance expectations before deployment.",
+      "refs": ["Module 5: Deployment Readiness"]
+    },
+    {
+      "id": "P1-Q024",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following roles carries the broadest obligations under the EU AI Act?",
+      "options": ["Provider", "Deployer", "Importer", "Distributor"],
+      "correctIndex": 0,
+      "explanation": "Providers (developers) carry the most extensive obligations including risk management, documentation, and conformity assessments.",
+      "refs": ["Module 6: EU AI Act Roles"]
+    },
+    {
+      "id": "P1-Q025",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-C",
+      "stem": "Under the EU AI Act, the surveillance system would MOST likely be classified as:",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited risk"],
+      "correctIndex": 3,
+      "explanation": "Real-time remote biometric identification in public spaces is generally prohibited under the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Prohibited Uses"]
+    },
+    {
+      "id": "P1-Q026",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-C",
+      "stem": "From a governance perspective, which first step should Urbania's city council take before deployment?",
+      "options": ["Issue a public press release announcing the project", "Conduct an algorithmic impact assessment (AIA)", "Train operators in basic coding skills", "Benchmark accuracy against social media datasets"],
+      "correctIndex": 1,
+      "explanation": "An algorithmic impact assessment should be the first governance step to identify bias and rights risks.",
+      "refs": ["Module 3: Governance Best Practices"]
+    },
+    {
+      "id": "P1-Q027",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-C",
+      "stem": "Since the vendor is located outside the EU, which entity must ensure compliance with the EU AI Act before making the system available in Europe?",
+      "options": ["Provider", "Importer", "Distributor", "Deployer"],
+      "correctIndex": 1,
+      "explanation": "Importers (EU-based entities) must ensure non-EU AI systems comply with EU AI Act before market placement.",
+      "refs": ["Module 6: EU AI Act Importer Obligations"]
+    },
+    {
+      "id": "P1-Q028",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which ISO standard establishes a framework for an AI management system?",
+      "options": ["ISO 22989", "ISO 27001", "ISO 42001", "ISO 9001"],
+      "correctIndex": 2,
+      "explanation": "ISO 42001 establishes a framework for AI management systems.",
+      "refs": ["Module 7: ISO Standards"]
+    },
+    {
+      "id": "P1-Q029",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following best describes an allocative harm?",
+      "options": ["An AI voice assistant mispronounces names from a minority language.", "A content moderation AI removes legitimate posts that criticize the government.", "An AI loan system denies access to credit for a qualified subgroup.", "An AI recruitment chatbot fails to provide explanations to rejected applicants."],
+      "correctIndex": 2,
+      "explanation": "Allocative harm involves unfair distribution of resources or opportunities, like credit denial.",
+      "refs": ["Module 2: Harms Taxonomy"]
+    },
+    {
+      "id": "P1-Q030",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-D",
+      "stem": "Which TWO obligations are especially critical under the EU AI Act for MediScan's system?",
+      "options": ["Human oversight by qualified medical professionals", "Mandatory publication of model source code", "Risk management and conformity assessment", "Open access to patient medical data for model retraining"],
+      "correctIndex": 0,
+      "explanation": "Healthcare AI requires human oversight by qualified professionals and risk management/conformity assessment as high-risk systems. (Note: This is a multi-select question - both A and C are correct)",
+      "refs": ["Module 6: EU AI Act Healthcare Requirements"]
+    },
+    {
+      "id": "P1-Q031",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following best describes artificial general intelligence (AGI)?",
+      "options": ["Narrow AI trained for one specific task", "AI that can match or exceed human performance across many domains", "AI with no autonomy and limited human involvement", "AI models specialized in recognition tasks only"],
+      "correctIndex": 1,
+      "explanation": "AGI refers to AI that can match or exceed human cognitive abilities across multiple domains, unlike narrow AI.",
+      "refs": ["Module 1: AI Classifications"]
+    },
+    {
+      "id": "P1-Q032",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following is an environmental harm linked to AI?",
+      "options": ["Spread of disinformation through social media bots", "Large-scale energy consumption during model training", "Job loss from automation in warehouses", "Bias in facial recognition datasets"],
+      "correctIndex": 1,
+      "explanation": "Environmental harms include energy consumption, carbon emissions, and resource usage from training large AI models.",
+      "refs": ["Module 2: Environmental Impacts"]
+    },
+    {
+      "id": "P1-Q033",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "In a small startup with limited resources, which approach to AI governance is most realistic?",
+      "options": ["Centralized model", "Hybrid model", "Decentralized model", "International oversight committee"],
+      "correctIndex": 0,
+      "explanation": "Small companies typically use centralized governance due to limited resources and need for consolidated oversight.",
+      "refs": ["Module 3: Governance for Small Organizations"]
+    },
+    {
+      "id": "P1-Q034",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which tool involves a structured trial run in near-production conditions to validate model performance and risks before deployment?",
+      "options": ["Benchmarking", "Probability/severity matrix", "Pre-deployment pilot", "Use case evaluation"],
+      "correctIndex": 2,
+      "explanation": "Pre-deployment pilots are structured trials in near-production conditions to validate performance and identify risks.",
+      "refs": ["Module 4: Risk Assessment Tools"]
+    },
+    {
+      "id": "P1-Q035",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment option is most scalable and cost-efficient but introduces higher security and latency risks?",
+      "options": ["On-premise deployment", "Cloud deployment", "Edge deployment", "Hybrid deployment"],
+      "correctIndex": 1,
+      "explanation": "Cloud deployment offers scalability and cost efficiency but introduces third-party security and latency risks.",
+      "refs": ["Module 5: Deployment Models"]
+    },
+    {
+      "id": "P1-Q036",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is a prohibited use of AI under the EU AI Act?",
+      "options": ["Credit scoring systems", "Predictive policing", "Personalized advertising", "Automated résumé screening"],
+      "correctIndex": 1,
+      "explanation": "Certain predictive policing applications are prohibited under the EU AI Act, along with social scoring and manipulative AI.",
+      "refs": ["Module 6: EU AI Act Prohibited Uses"]
+    },
+    {
+      "id": "P1-Q037",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which of the following frameworks is specifically human rights–oriented, helping organizations assess AI impact on democracy, dignity, and equality?",
+      "options": ["NIST AI RMF", "HUDERIA", "ISO 22989", "OECD AI Principles"],
+      "correctIndex": 1,
+      "explanation": "HUDERIA (Council of Europe) provides human rights, democracy, and rule of law impact assessment for AI.",
+      "refs": ["Module 7: Human Rights Frameworks"]
+    },
+    {
+      "id": "P1-Q038",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-E",
+      "stem": "Which GDPR principle is most directly violated by the failure to notify customers about AI-driven personalization?",
+      "options": ["Data minimization", "Purpose limitation", "Transparency and notice", "Storage limitation"],
+      "correctIndex": 2,
+      "explanation": "GDPR requires clear notification when AI is involved in decision-making (transparency and notice principle).",
+      "refs": ["Module 7: GDPR Transparency Requirements"]
+    },
+    {
+      "id": "P1-Q039",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-E",
+      "stem": "How would this recommendation system most likely be categorized under the EU AI Act?",
+      "options": ["Minimal risk", "Limited risk (due to transparency obligations)", "High risk", "Prohibited risk"],
+      "correctIndex": 1,
+      "explanation": "Recommendation systems fall under limited risk with transparency obligations - users must be informed AI is involved.",
+      "refs": ["Module 6: EU AI Act Limited Risk Systems"]
+    },
+    {
+      "id": "P1-Q040",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-F",
+      "stem": "From a governance perspective, which TWO safeguards should EduGen prioritize?",
+      "options": ["Human oversight by qualified educators", "Periodic retraining with new educational data", "Mandatory publication of all training datasets", "Restricting use to non-EU jurisdictions to avoid regulation"],
+      "correctIndex": 0,
+      "explanation": "Human oversight by qualified educators and periodic retraining are essential safeguards for educational AI systems. (Note: Both A and B are correct)",
+      "refs": ["Module 3: Educational AI Governance"]
+    },
+    {
+      "id": "P1-Q041",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a standard machine learning paradigm?",
+      "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Deterministic programming"],
+      "correctIndex": 3,
+      "explanation": "Deterministic programming is not a machine learning paradigm. The three main paradigms are supervised, unsupervised, and reinforcement learning.",
+      "refs": ["Module 1: Machine Learning Paradigms"]
+    },
+    {
+      "id": "P1-Q042",
+      "module": "Transparency Artifacts",
+      "scenarioId": null,
+      "stem": "Which control is primarily a post-hoc explainability technique for model decisions?",
+      "options": ["Differential privacy", "K-anonymity", "Local feature attribution (e.g., LIME/SHAP)", "Data minimization"],
+      "correctIndex": 2,
+      "explanation": "LIME/SHAP and similar local feature attribution methods are post-hoc explainability techniques that explain individual model decisions.",
+      "refs": ["Module 4: Explainability Techniques"]
+    },
+    {
+      "id": "P1-Q043",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "An AI governance committee typically performs all of the following EXCEPT:",
+      "options": ["Setting organization-wide AI policies and risk criteria", "Overseeing the AI use-case register and approvals", "Prioritizing remediation and monitoring progress", "Personally fulfilling every data subject rights request"],
+      "correctIndex": 3,
+      "explanation": "AI governance committees set policies and oversee AI programs but don't personally handle individual data subject requests.",
+      "refs": ["Module 3: Governance Committee Functions"]
+    },
+    {
+      "id": "P1-Q044",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "In the risk-mitigation hierarchy, which action is considered the highest (most preferred) level of risk control?",
+      "options": ["Accept the residual risk with compensating controls", "Transfer risk to a vendor via contract", "Reduce risk by adding guardrails and tests", "Eliminate the risky feature or redesign the use case"],
+      "correctIndex": 3,
+      "explanation": "Risk elimination through feature removal or use case redesign is the highest level of risk control in the mitigation hierarchy.",
+      "refs": ["Module 4: Risk Mitigation Hierarchy"]
+    },
+    {
+      "id": "P1-Q045",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which contract clause best strengthens governance over model changes affecting fairness and safety?",
+      "options": ["Vendor may update models at any time to improve accuracy.", "Vendor warrants 99.9% uptime.", "Vendor will provide bias/eval reports, data documentation, advance notice and approval for material model changes, and audit rights.", "Vendor will delete application logs every 7 days."],
+      "correctIndex": 2,
+      "explanation": "Comprehensive governance clauses requiring bias reports, documentation, change control, and audit rights provide the strongest oversight.",
+      "refs": ["Module 5: Vendor Contract Management"]
+    },
+    {
+      "id": "P1-Q046",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which use case most likely falls under limited-risk with transparency obligations, rather than high-risk or prohibited?",
+      "options": ["Chatbot used in customer service interactions", "AI tool ranking job applicants", "Real-time remote biometric ID in public spaces", "AI assisting in medical diagnosis"],
+      "correctIndex": 0,
+      "explanation": "Customer service chatbots fall under limited risk requiring transparency (users must know they're interacting with AI).",
+      "refs": ["Module 6: EU AI Act Limited Risk Systems"]
+    },
+    {
+      "id": "P1-Q047",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which activity aligns most closely with the 'Map' function of the NIST AI Risk Management Framework?",
+      "options": ["Defining metrics and tests for robustness and bias", "Implementing mitigations and controls for prioritized risks", "Understanding context of use, stakeholders, and potential impacts", "Performing continuous model performance monitoring"],
+      "correctIndex": 2,
+      "explanation": "The 'Map' function involves understanding context, stakeholders, and potential impacts to establish the risk landscape.",
+      "refs": ["Module 7: NIST AI RMF Functions"]
+    },
+    {
+      "id": "P1-Q048",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-G",
+      "stem": "Under the EU AI Act, this system would MOST likely be categorized as:",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited risk"],
+      "correctIndex": 2,
+      "explanation": "AI systems used in education that can significantly impact students' academic outcomes are classified as high-risk.",
+      "refs": ["Module 6: EU AI Act Educational Systems"]
+    },
+    {
+      "id": "P1-Q049",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-G",
+      "stem": "Which action should OpenBridge prioritize before deployment to address the disparate accuracy?",
+      "options": ["Require vendor to allow acceptance testing on local student populations, provide bias and performance evaluations by sub-group, and commit to change control for model updates", "Proceed to production and collect complaints for 90 days before making changes", "Replace facial recognition with emotion detection to reduce false positives", "Rely on the vendor's fairness statement and add a disclaimer to the syllabus"],
+      "correctIndex": 0,
+      "explanation": "Comprehensive bias testing, subgroup evaluation, and change control are essential before deploying systems with known accuracy disparities.",
+      "refs": ["Module 3: Bias Mitigation Strategies"]
+    },
+    {
+      "id": "P1-Q050",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-G",
+      "stem": "Several students challenge disciplinary actions made solely on AI flags. Which GDPR protection is most directly implicated?",
+      "options": ["Right to data portability (Art. 20)", "Right not to be subject to a solely automated decision with legal or similarly significant effects, including a right to human intervention (Art. 22)", "Right to restriction of processing (Art. 18)", "Right to rectification (Art. 16)"],
+      "correctIndex": 1,
+      "explanation": "Article 22 GDPR protects against solely automated decisions with significant effects, requiring human intervention rights.",
+      "refs": ["Module 7: GDPR Automated Decision-Making"]
+    },
+    {
+      "id": "P1-Q051",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following best describes the AI technology stack?",
+      "options": ["A hierarchy of ethical frameworks applied to AI systems", "Layers of infrastructure, data, models, and applications enabling AI functionality", "A series of organizational governance committees overseeing AI", "National standards adopted by ISO and OECD"],
+      "correctIndex": 1,
+      "explanation": "The AI technology stack consists of layered components: infrastructure, data pipelines, ML models, and applications.",
+      "refs": ["Module 1: AI Technology Architecture"]
+    },
+    {
+      "id": "P1-Q052",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which type of bias occurs when training data reflects patterns that are outdated compared to current reality?",
+      "options": ["Sampling bias", "Temporal bias", "Cognitive bias", "Overfitting"],
+      "correctIndex": 1,
+      "explanation": "Temporal bias occurs when training data reflects outdated patterns that no longer represent current reality.",
+      "refs": ["Module 2: Bias Types"]
+    },
+    {
+      "id": "P1-Q053",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which governance model is best suited for a large multinational seeking global consistency but allowing regional adaptation?",
+      "options": ["Centralized model", "Decentralized model", "Hybrid model", "Outsourced governance board"],
+      "correctIndex": 2,
+      "explanation": "Hybrid models balance global consistency through central policies with regional flexibility through local adaptation.",
+      "refs": ["Module 3: Multinational Governance"]
+    },
+    {
+      "id": "P1-Q054",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which risk assessment tool involves mapping stakeholder perspectives to identify concerns and sources of risk?",
+      "options": ["Benchmarking", "Stakeholder mapping", "Pre-deployment pilot", "Risk mitigation hierarchy"],
+      "correctIndex": 1,
+      "explanation": "Stakeholder mapping identifies different stakeholder perspectives, concerns, and potential sources of risk.",
+      "refs": ["Module 4: Stakeholder Analysis"]
+    },
+    {
+      "id": "P1-Q055",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a best practice for managing third-party AI vendor risks?",
+      "options": ["Reviewing vendor's bias testing and documentation", "Building audit rights into contracts", "Accepting vendor assurances without verification", "Assessing model update and change control policies"],
+      "correctIndex": 2,
+      "explanation": "Accepting vendor assurances without verification is poor governance; all claims should be verified through documentation and testing.",
+      "refs": ["Module 5: Vendor Risk Management"]
+    },
+    {
+      "id": "P1-Q056",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following would be classified as prohibited AI under the EU AI Act?",
+      "options": ["Biometric verification for unlocking smartphones", "AI predicting student exam success in schools", "Untargeted scraping of facial images for recognition databases", "Chatbots requiring transparency disclosures"],
+      "correctIndex": 2,
+      "explanation": "Untargeted scraping of facial images from internet or CCTV footage for recognition databases is prohibited.",
+      "refs": ["Module 6: EU AI Act Prohibited Practices"]
+    },
+    {
+      "id": "P1-Q057",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which ISO standard defines concepts and terminology for artificial intelligence?",
+      "options": ["ISO 22989", "ISO 42001", "ISO 27001", "ISO 9001"],
+      "correctIndex": 0,
+      "explanation": "ISO/IEC 22989 defines concepts and terminology for artificial intelligence.",
+      "refs": ["Module 7: ISO AI Standards"]
+    },
+    {
+      "id": "P1-Q058",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-H",
+      "stem": "Under the EU AI Act, this insurance risk assessment system would MOST likely be categorized as:",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems for insurance and financial services are classified as high-risk under Annex III of the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Financial Services"]
+    },
+    {
+      "id": "P1-Q059",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-H",
+      "stem": "Which obligation is mandatory for SafeLife's high-risk system?",
+      "options": ["Human oversight, conformity assessment, and risk management", "Publishing all patient medical records for public review", "Guaranteeing equal premiums across all demographics", "Removing all personal health data from the system"],
+      "correctIndex": 0,
+      "explanation": "High-risk AI systems must implement human oversight, conformity assessment, and risk management procedures.",
+      "refs": ["Module 6: EU AI Act High-Risk Obligations"]
+    },
+    {
+      "id": "P1-Q060",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-H",
+      "stem": "Under Canada's Artificial Intelligence and Data Act (AIDA), how would SafeLife's system be regulated?",
+      "options": ["As a minimal-risk system, no obligations apply", "As a high-impact AI system requiring risk assessments and oversight by the AI & Data Commissioner", "As an open-source AI system exempt from compliance", "As a prohibited system under Canadian law"],
+      "correctIndex": 1,
+      "explanation": "Under AIDA, high-impact AI systems require risk assessments and oversight by the AI & Data Commissioner.",
+      "refs": ["Module 7: Canadian AIDA"]
+    },
+    {
+      "id": "P1-Q061",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following is an example of artificial narrow intelligence (ANI)?",
+      "options": ["A chess-playing AI that consistently beats human champions", "A system capable of general problem-solving across all human tasks", "A superintelligent system outperforming humans in every domain", "An AI tutor that reasons about philosophy and law simultaneously"],
+      "correctIndex": 0,
+      "explanation": "ANI (narrow AI) excels at specific tasks like chess but cannot generalize across domains like AGI or ASI.",
+      "refs": ["Module 1: AI Classifications"]
+    },
+    {
+      "id": "P1-Q062",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following best represents an organizational harm from AI?",
+      "options": ["Disinformation undermining elections", "Privacy violations for individuals", "Damage to company reputation due to biased model outputs", "Carbon emissions from data centers"],
+      "correctIndex": 2,
+      "explanation": "Organizational harms include reputational damage, economic losses, and cultural risks to the organization itself.",
+      "refs": ["Module 2: Organizational Harms"]
+    },
+    {
+      "id": "P1-Q063",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "AI governance policies typically cover all of the following EXCEPT:",
+      "options": ["Risk management", "Ethics by design", "Marketing strategy", "Incident management"],
+      "correctIndex": 2,
+      "explanation": "AI governance policies focus on risk, ethics, and incident management, not commercial marketing strategies.",
+      "refs": ["Module 3: Governance Policy Scope"]
+    },
+    {
+      "id": "P1-Q064",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "During the planning phase of AI development, what should be the first priority?",
+      "options": ["Define the business problem and intended use case", "Select the model architecture", "Draft a vendor contract", "Establish logging protocols"],
+      "correctIndex": 0,
+      "explanation": "Defining the business problem and intended use case is the foundational first step in AI project planning.",
+      "refs": ["Module 4: Project Planning Priorities"]
+    },
+    {
+      "id": "P1-Q065",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment option provides the highest control over sensitive data but requires heavy upfront investment?",
+      "options": ["Cloud deployment", "On-premise deployment", "Edge deployment", "Hybrid deployment"],
+      "correctIndex": 1,
+      "explanation": "On-premise deployment offers maximum data control but requires significant upfront infrastructure investment.",
+      "refs": ["Module 5: Deployment Trade-offs"]
+    },
+    {
+      "id": "P1-Q066",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which role under the EU AI Act carries the broadest and most extensive obligations?",
+      "options": ["Provider", "Deployer", "Importer", "Distributor"],
+      "correctIndex": 0,
+      "explanation": "Providers (developers) have the most extensive obligations including risk management, documentation, and conformity assessments.",
+      "refs": ["Module 6: EU AI Act Provider Obligations"]
+    },
+    {
+      "id": "P1-Q067",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which framework sets five principles for trustworthy AI including human rights, democratic values, robustness, transparency, and accountability?",
+      "options": ["OECD AI Principles", "NIST AI RMF", "ISO 42001", "HUDERIA"],
+      "correctIndex": 0,
+      "explanation": "The OECD AI Principles establish five principles for trustworthy AI including human rights, democratic values, robustness, transparency, and accountability.",
+      "refs": ["Module 7: OECD AI Principles"]
+    },
+    {
+      "id": "P1-Q068",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-I",
+      "stem": "How would this fraud detection system most likely be classified under the EU AI Act?",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems in essential financial services like fraud detection are classified as high-risk under Annex III.",
+      "refs": ["Module 6: EU AI Act Financial Systems"]
+    },
+    {
+      "id": "P1-Q069",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-I",
+      "stem": "Which obligation would most directly address customer concerns about blocked transactions?",
+      "options": ["Human oversight and explanations of decisions", "Publishing all training data", "Eliminating all false positives before launch", "Banning use of fraud detection AI altogether"],
+      "correctIndex": 0,
+      "explanation": "High-risk systems must provide human oversight and explanations to address user concerns about automated decisions.",
+      "refs": ["Module 6: EU AI Act Transparency Requirements"]
+    },
+    {
+      "id": "P1-Q070",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-I",
+      "stem": "Which GDPR principle is most directly implicated when the system processes financial transaction data?",
+      "options": ["Data minimization", "Purpose limitation", "Storage limitation", "Accuracy"],
+      "correctIndex": 1,
+      "explanation": "Purpose limitation requires that financial data processing be limited to the declared purpose (fraud detection).",
+      "refs": ["Module 7: GDPR Purpose Limitation"]
+    },
+    {
+      "id": "P1-Q071",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following best describes reinforcement learning?",
+      "options": ["Training AI by providing labeled input–output pairs", "Learning patterns from unlabeled data", "Learning through trial and error using rewards and penalties", "Programming AI with deterministic rules"],
+      "correctIndex": 2,
+      "explanation": "Reinforcement learning involves agents learning optimal behavior through trial and error using reward/penalty feedback.",
+      "refs": ["Module 1: Reinforcement Learning"]
+    },
+    {
+      "id": "P1-Q072",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following is an example of a subjective harm?",
+      "options": ["A bank denies a loan due to biased data", "A facial recognition model misidentifies a person, causing embarrassment", "A company suffers reputational damage after deploying biased AI", "An AI system increases carbon emissions in a data center"],
+      "correctIndex": 1,
+      "explanation": "Subjective harms affect dignity, self-perception, or social standing, like embarrassment from misidentification.",
+      "refs": ["Module 2: Subjective vs Objective Harms"]
+    },
+    {
+      "id": "P1-Q073",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which of the following stakeholders is most likely responsible for AI project risk acceptance in an organization?",
+      "options": ["Procurement officer", "Chief risk officer or governance committee", "Data scientists", "End users"],
+      "correctIndex": 1,
+      "explanation": "Risk acceptance decisions must be made at the executive/governance level, typically by CRO or governance committee.",
+      "refs": ["Module 3: Risk Acceptance Authority"]
+    },
+    {
+      "id": "P1-Q074",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a commonly used AI development risk assessment strategy?",
+      "options": ["Pre-deployment pilots", "Stakeholder mapping", "Benchmarking", "Net present value (NPV) analysis"],
+      "correctIndex": 3,
+      "explanation": "NPV analysis is a financial tool, not an AI-specific risk assessment strategy.",
+      "refs": ["Module 4: Risk Assessment vs Financial Analysis"]
+    },
+    {
+      "id": "P1-Q075",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment approach is most likely to minimize latency while improving user privacy, but may face device hardware limitations?",
+      "options": ["Cloud deployment", "On-premise deployment", "Edge deployment", "Hybrid deployment"],
+      "correctIndex": 2,
+      "explanation": "Edge deployment runs on local devices, providing low latency and privacy but with hardware constraints.",
+      "refs": ["Module 5: Edge Computing Trade-offs"]
+    },
+    {
+      "id": "P1-Q076",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which AI use case is classified as high-risk under the EU AI Act?",
+      "options": ["AI in online shopping personalization", "AI for access to essential public services", "Chatbots in customer service", "Emotion recognition in entertainment apps"],
+      "correctIndex": 1,
+      "explanation": "AI systems for access to essential public services are explicitly listed as high-risk in Annex III.",
+      "refs": ["Module 6: EU AI Act Public Services"]
+    },
+    {
+      "id": "P1-Q077",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which jurisdiction has enacted the AI Basic Act, requiring 'business operators' to meet obligations such as risk management and impact assessments?",
+      "options": ["Canada", "South Korea", "Brazil", "United States"],
+      "correctIndex": 1,
+      "explanation": "South Korea's AI Basic Act (2025) applies obligations to 'business operators' of AI systems.",
+      "refs": ["Module 7: South Korean AI Regulation"]
+    },
+    {
+      "id": "P1-Q078",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-J",
+      "stem": "How would this AI system most likely be classified under the EU AI Act?",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems in critical infrastructure like aviation safety are classified as high-risk under Annex III.",
+      "refs": ["Module 6: EU AI Act Critical Infrastructure"]
+    },
+    {
+      "id": "P1-Q079",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-J",
+      "stem": "Which requirement is mandatory for SkyWay's AI safety system?",
+      "options": ["Guaranteeing 100% accuracy before launch", "Human oversight and conformity assessment procedures", "Publishing all algorithm source code", "Free public access to all technical documentation"],
+      "correctIndex": 1,
+      "explanation": "High-risk AI systems must implement human oversight and conformity assessment procedures.",
+      "refs": ["Module 6: EU AI Act Safety Requirements"]
+    },
+    {
+      "id": "P1-Q080",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-J",
+      "stem": "Which international standard would best guide SkyWay in establishing an AI management system to ensure responsible governance across its operations?",
+      "options": ["ISO 22989", "ISO 42001", "NIST AI RMF", "OECD AI Principles"],
+      "correctIndex": 1,
+      "explanation": "ISO 42001 provides a framework for AI management systems to ensure responsible governance.",
+      "refs": ["Module 7: ISO 42001 Management Systems"]
+    },
+    {
+      "id": "P1-Q081",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a driver of modern AI adoption?",
+      "options": ["Cloud computing", "Internet of Things (IoT)", "Social media data", "Limited access to digital infrastructure"],
+      "correctIndex": 3,
+      "explanation": "Limited digital infrastructure hinders AI adoption. Modern AI growth is driven by cloud computing, IoT, and big data availability.",
+      "refs": ["Module 1: AI Adoption Drivers"]
+    },
+    {
+      "id": "P1-Q082",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which bias type occurs when a model performs well on training data but fails on new, unseen data?",
+      "options": ["Sampling bias", "Temporal bias", "Overfitting", "Cognitive bias"],
+      "correctIndex": 2,
+      "explanation": "Overfitting occurs when a model memorizes training data and fails to generalize to new, unseen data.",
+      "refs": ["Module 2: Overfitting vs Bias"]
+    },
+    {
+      "id": "P1-Q083",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which governance structure gives local business units decision-making power with minimal central oversight?",
+      "options": ["Centralized model", "Decentralized model", "Hybrid model", "External governance"],
+      "correctIndex": 1,
+      "explanation": "Decentralized governance gives local business units autonomy with minimal central oversight.",
+      "refs": ["Module 3: Decentralized Governance"]
+    },
+    {
+      "id": "P1-Q084",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which impact assessment is specifically designed to evaluate risks of algorithms in government decision-making?",
+      "options": ["Privacy Impact Assessment (PIA)", "Data Protection Impact Assessment (DPIA)", "Algorithmic Impact Assessment (AIA)", "Environmental Impact Assessment (EIA)"],
+      "correctIndex": 2,
+      "explanation": "Algorithmic Impact Assessments (AIAs) are specifically designed to evaluate algorithmic risks in government decision-making.",
+      "refs": ["Module 4: Government AI Assessments"]
+    },
+    {
+      "id": "P1-Q085",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment model combines cloud scalability with on-premise control, often used for regulatory compliance?",
+      "options": ["Cloud", "Edge", "Hybrid", "Proprietary"],
+      "correctIndex": 2,
+      "explanation": "Hybrid deployment combines cloud scalability with on-premise control, often chosen for regulatory compliance.",
+      "refs": ["Module 5: Hybrid Deployment Benefits"]
+    },
+    {
+      "id": "P1-Q086",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which system would be classified as prohibited under the EU AI Act?",
+      "options": ["Emotion recognition in classrooms", "AI used for translation services", "Credit scoring systems", "AI used for personalized advertising"],
+      "correctIndex": 0,
+      "explanation": "Emotion recognition in schools and workplaces is prohibited under the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Emotion Recognition Ban"]
+    },
+    {
+      "id": "P1-Q087",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which framework provides a Council of Europe methodology for human rights–oriented AI impact assessments?",
+      "options": ["OECD AI Principles", "HUDERIA", "NIST AI RMF", "ISO 42001"],
+      "correctIndex": 1,
+      "explanation": "HUDERIA provides the Council of Europe's methodology for human rights, democracy, and rule of law impact assessments.",
+      "refs": ["Module 7: Council of Europe HUDERIA"]
+    },
+    {
+      "id": "P1-Q088",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-K",
+      "stem": "How would this hiring tool most likely be classified under the EU AI Act?",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems for employment and hiring are explicitly classified as high-risk under Annex III of the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Employment Systems"]
+    },
+    {
+      "id": "P1-Q089",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-K",
+      "stem": "Which approach would BEST address the bias issue before deployment?",
+      "options": ["Conduct subgroup bias testing, retrain with diverse data, and document mitigations", "Deploy the model and monitor complaints for 6 months", "Restrict use to countries without AI laws", "Add a disclaimer stating results may be inaccurate"],
+      "correctIndex": 0,
+      "explanation": "Comprehensive bias testing, retraining with diverse data, and documentation are essential before deployment.",
+      "refs": ["Module 3: Pre-deployment Bias Mitigation"]
+    },
+    {
+      "id": "P1-Q090",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-K",
+      "stem": "In New York City, which legal requirement applies to TalentAI's résumé screening system?",
+      "options": ["Ban on AI hiring tools", "Mandatory bias audit of automated employment decision tools", "Free public access to all training data", "Requirement to deploy models only as open source"],
+      "correctIndex": 1,
+      "explanation": "NYC Local Law 144 requires bias audits for automated employment decision tools.",
+      "refs": ["Module 7: NYC Local Law 144"]
+    },
+    {
+      "id": "P1-Q091",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following best describes artificial superintelligence (ASI)?",
+      "options": ["AI that can only perform narrow tasks like spam filtering", "AI matching human cognitive ability across domains", "AI surpassing human intelligence across all domains", "AI systems designed only for recognition and detection"],
+      "correctIndex": 2,
+      "explanation": "ASI (artificial superintelligence) surpasses human intelligence across all cognitive domains.",
+      "refs": ["Module 1: ASI Definition"]
+    },
+    {
+      "id": "P1-Q092",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following is an environmental harm of AI?",
+      "options": ["Over-reliance on AI undermining democracy", "Excessive carbon footprint from training large models", "A hospital's reputation damaged by an AI error", "A facial recognition system denying access to a building"],
+      "correctIndex": 1,
+      "explanation": "Environmental harms include excessive energy consumption and carbon emissions from training large AI models.",
+      "refs": ["Module 2: AI Environmental Impact"]
+    },
+    {
+      "id": "P1-Q093",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "An organization's AI governance program typically addresses all of the following EXCEPT:",
+      "options": ["Roles and responsibilities", "Incident management", "Data collection oversight", "Sales performance incentives"],
+      "correctIndex": 3,
+      "explanation": "AI governance programs focus on roles, incident management, and data oversight, not commercial sales incentives.",
+      "refs": ["Module 3: Governance Program Scope"]
+    },
+    {
+      "id": "P1-Q094",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "Which of the following data types is considered streaming data?",
+      "options": ["Historical sales records in spreadsheets", "Live website clickstream activity", "Pre-trained image datasets", "Static customer contact lists"],
+      "correctIndex": 1,
+      "explanation": "Streaming data flows continuously in real-time, like live website clickstream activity.",
+      "refs": ["Module 4: Data Types and Streaming"]
+    },
+    {
+      "id": "P1-Q095",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which of the following is a unique challenge of deploying proprietary AI models?",
+      "options": ["Difficulty scaling in cloud environments", "Transparency limitations and ownership of outputs", "Higher latency compared to edge deployment", "Limited data protection laws applying to proprietary AI"],
+      "correctIndex": 1,
+      "explanation": "Proprietary AI models face unique challenges around transparency limitations and unclear ownership of outputs.",
+      "refs": ["Module 5: Proprietary Model Challenges"]
+    },
+    {
+      "id": "P1-Q096",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is a requirement for high-risk AI systems under the EU AI Act?",
+      "options": ["Mandatory publication of training datasets", "Conformity assessment and technical documentation", "Guarantee of zero bias across all subgroups", "Free user access to model weights"],
+      "correctIndex": 1,
+      "explanation": "High-risk AI systems must undergo conformity assessment and maintain technical documentation.",
+      "refs": ["Module 6: EU AI Act Documentation Requirements"]
+    },
+    {
+      "id": "P1-Q097",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which country's proposed Artificial Intelligence and Data Act (AIDA) focuses on high-impact AI systems with oversight from an AI & Data Commissioner?",
+      "options": ["Brazil", "Canada", "United States", "Japan"],
+      "correctIndex": 1,
+      "explanation": "Canada's AIDA focuses on high-impact AI systems with oversight from an AI & Data Commissioner.",
+      "refs": ["Module 7: Canadian AIDA Overview"]
+    },
+    {
+      "id": "P1-Q098",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-L",
+      "stem": "Under the EU AI Act, MediHelp's chatbot would MOST likely be considered:",
+      "options": ["Minimal risk", "Limited risk (transparency obligation)", "High risk (healthcare sector)", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems in healthcare that can impact patient health outcomes are classified as high-risk.",
+      "refs": ["Module 6: EU AI Act Healthcare Classification"]
+    },
+    {
+      "id": "P1-Q099",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-L",
+      "stem": "Which action would BEST reduce risks before deployment?",
+      "options": ["Inform patients they are interacting with AI and require human oversight by medical staff", "Publish the chatbot's entire source code online", "Eliminate all errors from chatbot responses before launch", "Restrict use to non-EU countries to avoid compliance"],
+      "correctIndex": 0,
+      "explanation": "Transparency about AI interaction and human oversight by qualified medical staff are essential safeguards.",
+      "refs": ["Module 3: Healthcare AI Safeguards"]
+    },
+    {
+      "id": "P1-Q100",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-L",
+      "stem": "Which framework provides risk-based functions (Map, Measure, Manage, Govern) to guide organizations in managing AI risks?",
+      "options": ["OECD AI Principles", "ISO 22989", "NIST AI Risk Management Framework (AI RMF)", "HUDERIA"],
+      "correctIndex": 2,
+      "explanation": "The NIST AI Risk Management Framework provides four functions: Map, Measure, Manage, and Govern.",
+      "refs": ["Module 7: NIST AI RMF Complete Framework"]
+    }
+  ],
+  "scenarios": {
+    "SCEN-A": {
+      "title": "CareHire Employment Screening",
+      "description": "CareHire, a global HR platform, plans to deploy a third-party AI résumé screener across the EU and U.S. Pilots show strong efficiency gains, but an internal review notes potential adverse impact for older applicants. The vendor provides marketing materials, a short 'fairness' statement, and limited technical documentation. Launch is scheduled for next month."
+    },
+    "SCEN-B": {
+      "title": "FinTrust Credit Scoring",
+      "description": "FinTrust, a financial services company, plans to launch an AI credit scoring model. The model processes large volumes of personal and transaction data. Internal testing shows high predictive accuracy, but regulators warn about explainability gaps and potential discrimination against minority borrowers."
+    },
+    "SCEN-C": {
+      "title": "Urbania Smart City Surveillance",
+      "description": "The city of Urbania plans to roll out an AI-powered video surveillance system for traffic management and public safety. The system uses facial recognition and integrates with police databases. Civil society groups raise concerns about bias and mass surveillance. The vendor is based outside the EU, but Urbania is in Europe."
+    },
+    "SCEN-D": {
+      "title": "MediScan Healthcare Diagnostics",
+      "description": "MediScan, a hospital group, is preparing to launch an AI system that helps radiologists detect early-stage cancers. The model is trained on large datasets but shows reduced accuracy on patients from underrepresented demographics. The system will be used in EU hospitals."
+    },
+    "SCEN-E": {
+      "title": "ShopSmart E-Commerce Personalization",
+      "description": "ShopSmart, an online retailer, deploys a recommendation engine that tracks user behavior and purchasing data to personalize ads. Customers complain that they were unaware AI was involved and felt misled about automated decision-making."
+    },
+    "SCEN-F": {
+      "title": "EduGen Generative AI in Education",
+      "description": "EduGen, an edtech company, introduces a generative AI tutor for students. The system produces learning materials but sometimes gives inaccurate answers. Teachers use it as a supplement in classrooms."
+    },
+    "SCEN-G": {
+      "title": "OpenBridge University Remote Proctoring",
+      "description": "OpenBridge University plans to deploy an AI-based remote proctoring system that uses facial recognition, keystroke dynamics and gaze tracking to flag suspected cheating. Exam results and conduct decisions can be impacted by the flags. Students include many who reside in the EU. Pilot tests reveal reduced accuracy for certain skin tones and students with disabilities. The vendor provides marketing materials and a brief 'fairness statement,' but limited technical documentation."
+    },
+    "SCEN-H": {
+      "title": "SafeLife Insurance Risk Assessment",
+      "description": "SafeLife Insurance develops an AI system to evaluate health and lifestyle data for setting insurance premiums. Regulators note the model may disadvantage individuals with certain medical conditions and raise transparency concerns. The company operates in both the EU and Canada."
+    },
+    "SCEN-I": {
+      "title": "FinSecure Banking Fraud Detection",
+      "description": "FinSecure Bank introduces an AI fraud detection tool analyzing transactions in real-time. It flags suspicious payments, but customers complain that legitimate payments are sometimes blocked without clear explanations. The system is offered in both the U.S. and EU."
+    },
+    "SCEN-J": {
+      "title": "SkyWay Airline Safety AI",
+      "description": "SkyWay Airlines develops an AI system to predict maintenance needs for airplanes, using IoT sensor data. The system flags anomalies to reduce breakdowns, but regulators warn that poor accuracy could endanger passenger safety. SkyWay plans to deploy this system across its global fleet, including in the EU."
+    },
+    "SCEN-K": {
+      "title": "TalentAI Smart Hiring",
+      "description": "TalentAI, a global recruitment platform, develops an AI screening system that evaluates résumés and video interviews. Testing shows lower success rates for candidates with non-native accents. The tool will be marketed in both the EU and the U.S."
+    },
+    "SCEN-L": {
+      "title": "MediHelp Healthcare Chatbot",
+      "description": "MediHelp, a telehealth company, launches a chatbot to answer patient questions and triage symptoms. The chatbot interacts with patients directly and sometimes provides incorrect medical guidance. It is deployed in the EU and Singapore."
+    }
+  }
+}

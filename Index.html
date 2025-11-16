@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIGP Exam Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AIGP Exam Simulation</h1>
+            <p>Artificial Intelligence Governance Professional Certification Practice</p>
+        </div>
+
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-screen">
+                <h2>Welcome to the AIGP Exam Simulation</h2>
+                <p>This simulation replicates the actual AIGP certification exam experience with multiple practice papers.</p>
+                
+                <!-- Paper picker will be inserted here by JavaScript -->
+                
+                <div class="exam-info">
+                    <h3>Instructions</h3>
+                    <ul>
+                        <li>Select a practice paper from the options above</li>
+                        <li>Read each question carefully before selecting your answer</li>
+                        <li>You can navigate between questions using the Previous/Next buttons</li>
+                        <li>Use the question palette to jump to specific questions</li>
+                        <li>Your progress is automatically saved</li>
+                        <li>You must answer all questions before submitting</li>
+                        <li>Review your answers before final submission</li>
+                    </ul>
+                </div>
+
+                <button class="btn" onclick="startExam()" disabled>Select a Paper First</button>
+            </div>
+        </div>
+
+        <!-- Exam Screen -->
+        <div id="exam-screen" class="screen">
+            <div class="exam-controls">
+                <div class="timer" id="timer">150:00</div>
+                <div class="progress-info">
+                    <span id="progress-text">Question 1 of 100</span>
+                </div>
+                <button class="btn" onclick="submitExam()" id="submit-btn" disabled>Submit Exam</button>
+            </div>
+
+            <div class="question-palette" id="question-palette">
+                <!-- Question palette buttons will be generated here -->
+            </div>
+
+            <div class="question-container">
+                <div class="question-header">
+                    <div class="question-number" id="question-number">Question 1</div>
+                    <div class="question-module" id="question-module">Module: Foundations</div>
+                </div>
+                
+                <div id="scenario-container">
+                    <!-- Scenario content will be inserted here if applicable -->
+                </div>
+
+                <div class="question-text" id="question-text">
+                    <!-- Question text will be inserted here -->
+                </div>
+
+                <div class="options-container" id="options-container">
+                    <!-- Options will be generated here -->
+                </div>
+            </div>
+
+            <div class="navigation">
+                <div class="nav-buttons">
+                    <button class="btn" onclick="previousQuestion()" id="prev-btn" disabled>Previous</button>
+                    <button class="btn" onclick="nextQuestion()" id="next-btn">Next</button>
+                </div>
+                <div>
+                    <button class="btn" onclick="showQuestionPalette()" style="background: #6c757d;">Question Overview</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="results-screen">
+                <div class="score-summary">
+                    <h2 id="final-score">450</h2>
+                    <div class="pass-status" id="pass-status">PASS</div>
+                    <p>Congratulations! You have successfully completed the AIGP exam simulation.</p>
+                </div>
+
+                <div class="score-details">
+                    <div class="score-card">
+                        <h3>Raw Score</h3>
+                        <div class="score-value" id="raw-score">85/100</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Percentage</h3>
+                        <div class="score-value" id="percentage">85%</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Scaled Score</h3>
+                        <div class="score-value" id="scaled-score">450/500</div>
+                    </div>
+                    <div class="score-card">
+                        <h3>Time Used</h3>
+                        <div class="score-value" id="time-used">142:35</div>
+                    </div>
+                </div>
+
+                <div class="module-performance">
+                    <h3>Performance by Module</h3>
+                    <div id="module-results">
+                        <!-- Module performance will be generated here -->
+                    </div>
+                </div>
+
+                <div class="question-review">
+                    <h3>Question Review</h3>
+                    <div id="question-review-content">
+                        <!-- Question review will be generated here -->
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 30px;">
+                    <button class="btn" onclick="restartExam()">Take Same Paper Again</button>
+                    <button class="btn" onclick="showWelcome()" style="background: #6c757d;">Choose Different Paper</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen">
+            <div class="loading">
+                <div class="spinner"></div>
+                <h3>Calculating Results...</h3>
+                <p>Please wait while we analyze your performance.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

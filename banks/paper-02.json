@@ -1,0 +1,608 @@
+{
+  "paperId": "paper-02",
+  "title": "AIGP Mock Paper 2 - EU AI Act Focus",
+  "minutes": 150,
+  "items": [
+    {
+      "id": "P2-Q001",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "On what date did General-Purpose AI (GPAI) provider obligations begin under the EU AI Act for models placed on/after that date?",
+      "options": ["2 Aug 2024", "2 Feb 2025", "2 Aug 2025", "2 Aug 2026"],
+      "correctIndex": 2,
+      "explanation": "GPAI provider obligations apply from 2 Aug 2025 for newly placed models.",
+      "refs": ["Module 6: EU AI Act GPAI Timeline"]
+    },
+    {
+      "id": "P2-Q002",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "A GPAI model placed on the market before 2 Aug 2025 must comply by:",
+      "options": ["2 Aug 2025", "2 Feb 2026", "2 Aug 2027", "2 Feb 2027"],
+      "correctIndex": 2,
+      "explanation": "Transitional period gives pre-Aug-2025 models until Aug-2027.",
+      "refs": ["Module 6: EU AI Act Grandfathering"]
+    },
+    {
+      "id": "P2-Q003",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which statement BEST describes the EU AI Act's Article 10(5) exception?",
+      "options": ["Sensitive data may never be processed.", "Sensitive data may always be used without limits.", "Sensitive data may be used, with strict safeguards, when necessary to meet data-quality obligations (e.g., bias mitigation).", "Sensitive data must always be anonymized."],
+      "correctIndex": 2,
+      "explanation": "Art. 10(5) permits limited, safeguarded use to improve fairness/quality.",
+      "refs": ["Module 6: EU AI Act Article 10(5)"]
+    },
+    {
+      "id": "P2-Q004",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which is TRUE about oversight under the AI Act?",
+      "options": ["The EU AI Office replaces all national regulators.", "The EU AI Office enforces all obligations across all AI.", "EU AI Office supervises GPAI; national authorities supervise most other areas.", "The EU AI Office is purely advisory."],
+      "correctIndex": 2,
+      "explanation": "Division of responsibilities—GPAI central oversight; others national.",
+      "refs": ["Module 6: EU AI Act Enforcement Structure"]
+    },
+    {
+      "id": "P2-Q005",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Maximum fine for certain serious non-compliance (e.g., prohibited practices):",
+      "options": ["€5m or 1% global turnover", "€15m or 3%", "€35m or 7%", "€50m or 10%"],
+      "correctIndex": 2,
+      "explanation": "Top tier penalties reach €35m or 7% of worldwide turnover.",
+      "refs": ["Module 6: EU AI Act Penalties"]
+    },
+    {
+      "id": "P2-Q006",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which practice aligns with the AI Act's iterative, lifecycle risk management?",
+      "options": ["One-time design review", "Audit only at go-live", "Continuous monitoring, retraining, incident logging", "Delete old records annually"],
+      "correctIndex": 2,
+      "explanation": "Risk management is ongoing across the lifecycle.",
+      "refs": ["Module 6: EU AI Act Risk Management"]
+    },
+    {
+      "id": "P2-Q007",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which is NOT explicitly required in high-risk technical documentation?",
+      "options": ["Metrics used for performance evaluation", "Description of human oversight measures", "Full proprietary source code", "Data quality & bias mitigation measures"],
+      "correctIndex": 2,
+      "explanation": "Annex IV requires what/why/how, not raw proprietary code.",
+      "refs": ["Module 6: EU AI Act Technical Documentation"]
+    },
+    {
+      "id": "P2-Q008",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which transparency element is expected for GPAI providers?",
+      "options": ["Mandatory open-sourcing of model weights", "Timing guarantees for API latency", "Information about copyrighted materials in training data", "Ban on all pre-2025 models"],
+      "correctIndex": 2,
+      "explanation": "GPAI guidance emphasizes copyright & training data transparency.",
+      "refs": ["Module 6: EU AI Act GPAI Transparency"]
+    },
+    {
+      "id": "P2-Q009",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "A non-EU provider sells a high-risk model to EU hospitals. Who has obligations?",
+      "options": ["Only deployers", "Only the provider", "Only importers in the EU", "All of the above, depending on the role"],
+      "correctIndex": 3,
+      "explanation": "The Act assigns duties to providers, importers, distributors, deployers.",
+      "refs": ["Module 6: EU AI Act Cross-Border Obligations"]
+    },
+    {
+      "id": "P2-Q010",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which date did prohibitions and AI-literacy provisions begin applying?",
+      "options": ["2 Aug 2024", "2 Feb 2025", "2 Aug 2025", "2 Aug 2026"],
+      "correctIndex": 1,
+      "explanation": "Some provisions (e.g., prohibitions, AI literacy/training) started Feb 2025.",
+      "refs": ["Module 6: EU AI Act Early Provisions"]
+    },
+    {
+      "id": "P2-Q011",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is classified as prohibited AI under the EU AI Act?",
+      "options": ["Emotion recognition in entertainment apps", "Emotion recognition in schools and workplaces", "Personalized product recommendations", "Credit scoring by banks"],
+      "correctIndex": 1,
+      "explanation": "Emotion recognition in educational and workplace settings is explicitly prohibited.",
+      "refs": ["Module 6: EU AI Act Prohibited Practices"]
+    },
+    {
+      "id": "P2-Q012",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which use case falls into the high-risk category under Annex III of the EU AI Act?",
+      "options": ["Customer chatbots", "Generative art tools", "AI systems used in employment and worker management (e.g., résumé screening)", "Grammar correction software"],
+      "correctIndex": 2,
+      "explanation": "Annex III lists employment, education, migration, justice, law enforcement, critical infrastructure, etc. as high-risk.",
+      "refs": ["Module 6: EU AI Act High-Risk Categories"]
+    },
+    {
+      "id": "P2-Q013",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which type of AI system is exempt from the EU AI Act?",
+      "options": ["Chatbots used in customer service", "AI systems used solely for national security purposes", "Biometric systems in public spaces", "Credit scoring in financial services"],
+      "correctIndex": 1,
+      "explanation": "AI systems used exclusively for national security are exempt.",
+      "refs": ["Module 6: EU AI Act Exemptions"]
+    },
+    {
+      "id": "P2-Q014",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which role carries the broadest set of obligations under the EU AI Act?",
+      "options": ["Importer", "Distributor", "Provider", "Deployer"],
+      "correctIndex": 2,
+      "explanation": "Providers (developers) must meet the widest set of obligations — from design to post-market monitoring.",
+      "refs": ["Module 6: EU AI Act Provider Obligations"]
+    },
+    {
+      "id": "P2-Q015",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "What does the AI literacy requirement in the EU AI Act require?",
+      "options": ["Only technical staff must understand AI models fully", "Providers and deployers must ensure their staff and operators have sufficient AI literacy for safe use", "Only regulators must publish literacy guidelines", "All citizens must undergo AI literacy training"],
+      "correctIndex": 1,
+      "explanation": "Article 4 requires providers and deployers to train their staff to ensure safe and informed use.",
+      "refs": ["Module 6: EU AI Act AI Literacy"]
+    },
+    {
+      "id": "P2-Q016",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following must be included in technical documentation for high-risk AI systems?",
+      "options": ["Marketing strategy for the AI product", "Metrics for performance evaluation and risk mitigation processes", "Proprietary source code", "Sales revenue projections"],
+      "correctIndex": 1,
+      "explanation": "Annex IV lists metrics, human oversight, bias handling, event logging, etc., but not financial or marketing info.",
+      "refs": ["Module 6: EU AI Act Technical Documentation Requirements"]
+    },
+    {
+      "id": "P2-Q017",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Under the EU AI Act, what is required regarding human oversight of high-risk systems?",
+      "options": ["Human oversight is optional if accuracy is above 90%", "Oversight must be limited to providers only", "Systems must allow human operators to understand outputs, intervene, and override when necessary", "Oversight only applies to GPAI models"],
+      "correctIndex": 2,
+      "explanation": "Article 14 requires meaningful, effective human oversight for all high-risk systems.",
+      "refs": ["Module 6: EU AI Act Human Oversight"]
+    },
+    {
+      "id": "P2-Q018",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which enforcement regime is correct under the EU AI Act?",
+      "options": ["Fines up to €35M or 7% of turnover for prohibited practices", "€15M or 3% for prohibited uses", "€50M or 10% for all violations", "Criminal liability for all providers"],
+      "correctIndex": 0,
+      "explanation": "Severe breaches (e.g., prohibited AI) carry fines up to €35M or 7% of global turnover.",
+      "refs": ["Module 6: EU AI Act Enforcement Penalties"]
+    },
+    {
+      "id": "P2-Q019",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is a key focus of the EU's GPAI Code of Practice?",
+      "options": ["Mandatory open-source release of all model weights", "Transparency, safety, and copyright obligations for GPAI providers", "Ban on U.S.-developed GPAI models", "Automatic EU registration of all GPAI models"],
+      "correctIndex": 1,
+      "explanation": "The Code of Practice stresses transparency, copyright disclosures, and safety measures.",
+      "refs": ["Module 6: EU AI Act GPAI Code of Practice"]
+    },
+    {
+      "id": "P2-Q020",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which EU AI Act provision started applying from 2 February 2025?",
+      "options": ["GPAI obligations", "High-risk conformity assessments", "Prohibitions on certain AI uses and AI literacy requirements", "Post-market monitoring"],
+      "correctIndex": 2,
+      "explanation": "Bans on prohibited AI and AI literacy rules took effect 2 Feb 2025.",
+      "refs": ["Module 6: EU AI Act Implementation Timeline"]
+    },
+    {
+      "id": "P2-Q021",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "What is the correct order of steps in the risk management system under the AI Act?",
+      "options": ["Monitoring → Deployment → Documentation → Planning", "Identification → Analysis → Mitigation → Monitoring", "Mitigation → Identification → Documentation → Oversight", "Planning → Marketing → Sales → Audits"],
+      "correctIndex": 1,
+      "explanation": "Risk management is iterative: identify → analyze → mitigate → monitor.",
+      "refs": ["Module 6: EU AI Act Risk Management Process"]
+    },
+    {
+      "id": "P2-Q022",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which obligation applies to importers under the EU AI Act?",
+      "options": ["Design and train the AI model", "Ensure the provider has completed conformity assessment before placing on EU market", "Establish incident response teams", "Define human oversight for all use cases"],
+      "correctIndex": 1,
+      "explanation": "Importers must verify providers' compliance before market placement.",
+      "refs": ["Module 6: EU AI Act Importer Obligations"]
+    },
+    {
+      "id": "P2-Q023",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "What is the primary duty of a distributor under the EU AI Act?",
+      "options": ["Check CE marking and instructions before making AI available", "Conduct bias audits", "Maintain post-market monitoring logs", "Submit technical documentation"],
+      "correctIndex": 0,
+      "explanation": "Distributors must ensure CE marking, documentation, and instructions are in place.",
+      "refs": ["Module 6: EU AI Act Distributor Obligations"]
+    },
+    {
+      "id": "P2-Q024",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which is a deployer responsibility?",
+      "options": ["Ensure staff are trained to use the AI system appropriately", "Draft conformity assessment reports", "Conduct post-market monitoring for GPAI", "Approve technical documentation of providers"],
+      "correctIndex": 0,
+      "explanation": "Deployers must ensure safe use by training and oversight of operators.",
+      "refs": ["Module 6: EU AI Act Deployer Responsibilities"]
+    },
+    {
+      "id": "P2-Q025",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which scenario is LEAST likely to require watermarking obligations under the EU AI Act?",
+      "options": ["Public generative image platform", "Large-scale text-to-image model for consumers", "Private, in-house research model not exposed to end-users", "Open-access model with wide user base"],
+      "correctIndex": 2,
+      "explanation": "Watermarking applies to public-facing generative models, not internal R&D.",
+      "refs": ["Module 6: EU AI Act Watermarking Requirements"]
+    },
+    {
+      "id": "P2-Q026",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which statement about conformity assessments under the EU AI Act is correct?",
+      "options": ["Conducted only once before deployment", "Required both before market placement and throughout lifecycle (iterative updates)", "Required only for GPAI providers", "Only for prohibited practices"],
+      "correctIndex": 1,
+      "explanation": "High-risk AI must undergo conformity assessments pre-market and during lifecycle.",
+      "refs": ["Module 6: EU AI Act Conformity Assessment"]
+    },
+    {
+      "id": "P2-Q027",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which is true of Canada's Artificial Intelligence and Data Act (AIDA)?",
+      "options": ["Applies to all AI systems equally", "Covers \"high-impact\" AI systems with oversight by the AI & Data Commissioner", "Exempts biometric systems", "Enforces fines identical to the EU AI Act"],
+      "correctIndex": 1,
+      "explanation": "AIDA focuses on high-impact systems and establishes Commissioner oversight.",
+      "refs": ["Module 7: Canadian AIDA"]
+    },
+    {
+      "id": "P2-Q028",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which obligation applies under New York City's Local Law 144?",
+      "options": ["Ban on all automated hiring tools", "Independent bias audit of automated employment decision tools and candidate notification", "Mandatory open-source publication of training datasets", "No regulation until 2027"],
+      "correctIndex": 1,
+      "explanation": "NYC LL144 requires bias audits and notice, not a ban.",
+      "refs": ["Module 7: NYC Local Law 144"]
+    },
+    {
+      "id": "P2-Q029",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is prohibited under the EU AI Act?",
+      "options": ["AI-driven personalized advertising", "Predictive maintenance in aviation", "Untargeted scraping of facial images for recognition databases", "Fraud detection in banking"],
+      "correctIndex": 2,
+      "explanation": "Untargeted biometric scraping is banned.",
+      "refs": ["Module 6: EU AI Act Prohibited Practices"]
+    },
+    {
+      "id": "P2-Q030",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which system is an example of limited-risk AI under the EU AI Act?",
+      "options": ["AI-powered résumé screening", "Chatbots that must disclose AI involvement", "Emotion recognition in workplaces", "Predictive policing"],
+      "correctIndex": 1,
+      "explanation": "Chatbots fall under limited-risk with transparency obligations.",
+      "refs": ["Module 6: EU AI Act Limited Risk"]
+    },
+    {
+      "id": "P2-Q031",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Who supervises GPAI providers under the EU AI Act?",
+      "options": ["National supervisory authorities", "The EU AI Office", "The European Court of Justice", "The Council of Europe"],
+      "correctIndex": 1,
+      "explanation": "GPAI oversight is centralized with the EU AI Office.",
+      "refs": ["Module 6: EU AI Act GPAI Supervision"]
+    },
+    {
+      "id": "P2-Q032",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which is an example of iterative risk management required under the EU AI Act?",
+      "options": ["One-off risk assessment before deployment", "Continuous monitoring, retraining, and incident logging", "CE marking review once at market entry", "Annual financial audit of the provider"],
+      "correctIndex": 1,
+      "explanation": "Iterative, lifecycle-wide risk mgmt is required.",
+      "refs": ["Module 6: EU AI Act Iterative Risk Management"]
+    },
+    {
+      "id": "P2-Q033",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Who must ensure AI literacy under the EU AI Act?",
+      "options": ["Only regulators", "Only system providers", "Both providers and deployers for their staff/operators", "Only end-users"],
+      "correctIndex": 2,
+      "explanation": "Article 4 requires providers & deployers to ensure AI literacy.",
+      "refs": ["Module 6: EU AI Act AI Literacy Requirements"]
+    },
+    {
+      "id": "P2-Q034",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which application is high-risk under Annex III?",
+      "options": ["AI for video game personalization", "AI for medical diagnosis support", "AI for movie recommendations", "AI for customer service chatbots"],
+      "correctIndex": 1,
+      "explanation": "Medical/healthcare systems are high-risk.",
+      "refs": ["Module 6: EU AI Act Healthcare High-Risk"]
+    },
+    {
+      "id": "P2-Q035",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "How do importer obligations differ from distributor obligations under the EU AI Act?",
+      "options": ["Distributors must verify conformity assessments", "Importers must ensure providers have done conformity assessments; distributors must check CE marks & instructions", "Importers and distributors have identical obligations", "Importers only market AI in their own country"],
+      "correctIndex": 1,
+      "explanation": "Importers verify provider compliance; distributors check marks/docs.",
+      "refs": ["Module 6: EU AI Act Importer vs Distributor"]
+    },
+    {
+      "id": "P2-Q036",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "When is conformity assessment required?",
+      "options": ["Before market placement and when making substantial changes", "Only after deployment", "Only for GPAI", "Only for minimal-risk systems"],
+      "correctIndex": 0,
+      "explanation": "Required pre-market and whenever updates materially change the system.",
+      "refs": ["Module 6: EU AI Act Conformity Assessment Timing"]
+    },
+    {
+      "id": "P2-Q037",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which is NOT a focus of Canada's AIDA?",
+      "options": ["Risk assessments", "Transparency obligations", "AI & Data Commissioner oversight", "EU-style conformity assessments"],
+      "correctIndex": 3,
+      "explanation": "AIDA focuses on high-impact system governance, not EU-like conformity tests.",
+      "refs": ["Module 7: Canadian AIDA vs EU AI Act"]
+    },
+    {
+      "id": "P2-Q038",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which best describes the U.S. approach to AI regulation (as of 2025)?",
+      "options": ["A single nationwide AI Act", "Sector-specific guidance + executive orders + state laws (e.g., NYC LL144)", "Ban on high-risk AI across all states", "Mandatory CE marking for AI systems"],
+      "correctIndex": 1,
+      "explanation": "The U.S. uses sectoral rules, EO guidance, and state/local laws.",
+      "refs": ["Module 7: U.S. AI Regulation Approach"]
+    },
+    {
+      "id": "P2-Q039",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is classified as a prohibited use under the EU AI Act?",
+      "options": ["AI for personalized shopping suggestions", "Social scoring of individuals by governments", "AI used in spam detection", "AI for language translation"],
+      "correctIndex": 1,
+      "explanation": "Social scoring by governments is prohibited due to risks to fundamental rights.",
+      "refs": ["Module 6: EU AI Act Social Scoring Ban"]
+    },
+    {
+      "id": "P2-Q040",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following AI applications falls under limited risk?",
+      "options": ["AI used in border control decisions", "Recommender systems on streaming platforms", "Predictive policing systems", "Biometric surveillance in public spaces"],
+      "correctIndex": 1,
+      "explanation": "Recommendation systems are limited risk and require transparency, not conformity assessment.",
+      "refs": ["Module 6: EU AI Act Limited Risk Examples"]
+    },
+    {
+      "id": "P2-Q041",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which category includes high-risk AI systems?",
+      "options": ["Gaming personalization tools", "AI systems used in education or employment decisions", "AI for social media filters", "AI art generation"],
+      "correctIndex": 1,
+      "explanation": "Education, employment, migration, law enforcement, healthcare, and critical infrastructure are high-risk domains.",
+      "refs": ["Module 6: EU AI Act High-Risk Domains"]
+    },
+    {
+      "id": "P2-Q042",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which obligation applies to providers of high-risk AI systems under the EU AI Act?",
+      "options": ["Only train users in AI literacy", "Establish a risk management system and maintain technical documentation", "Only verify CE marking", "Only monitor sales"],
+      "correctIndex": 1,
+      "explanation": "Providers carry the broadest obligations: documentation, conformity assessments, risk management.",
+      "refs": ["Module 6: EU AI Act Provider Risk Management"]
+    },
+    {
+      "id": "P2-Q043",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "What must deployers of limited-risk AI systems ensure?",
+      "options": ["Users are informed they are interacting with AI", "No retraining of models occurs", "All datasets are open-source", "CE conformity is checked"],
+      "correctIndex": 0,
+      "explanation": "Limited-risk systems (like chatbots) require user transparency notices.",
+      "refs": ["Module 6: EU AI Act Limited Risk Transparency"]
+    },
+    {
+      "id": "P2-Q044",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": null,
+      "stem": "Which of the following is a requirement for GPAI providers under the EU AI Act starting August 2025?",
+      "options": ["Ban on proprietary models", "Provide documentation regarding training data and capabilities", "Guarantee zero bias in outputs", "Submit all code for EU review"],
+      "correctIndex": 1,
+      "explanation": "GPAI providers must provide transparency reports, training data summaries, and documentation.",
+      "refs": ["Module 6: EU AI Act GPAI Provider Requirements"]
+    },
+    {
+      "id": "P2-Q045",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which of the following BEST describes the scope of Canada's AIDA?",
+      "options": ["Applies equally to all AI", "Applies to \"high-impact\" AI systems such as healthcare and biometric uses", "Covers only AI in public sector", "Applies only to generative AI systems"],
+      "correctIndex": 1,
+      "explanation": "AIDA targets high-impact systems and requires risk assessments.",
+      "refs": ["Module 7: Canadian AIDA Scope"]
+    },
+    {
+      "id": "P2-Q046",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which statement best describes the U.S. regulatory approach to AI?",
+      "options": ["A single national AI Act governs all systems", "Sector-specific rules, executive orders, and state-level laws", "Federal ban on high-risk AI", "Mandatory CE-style conformity for AI products"],
+      "correctIndex": 1,
+      "explanation": "The U.S. uses patchwork regulation (FTC, EEOC, DoD rules + state/local laws like NYC LL144).",
+      "refs": ["Module 7: U.S. Patchwork Regulation"]
+    },
+    {
+      "id": "P2-Q047",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which is NOT one of the OECD's AI principles?",
+      "options": ["Inclusive growth, human-centered values", "Transparency and accountability", "Robustness, security, and safety", "Mandatory open-source release of all AI models"],
+      "correctIndex": 3,
+      "explanation": "OECD AI Principles are voluntary guidelines; they don't mandate open source.",
+      "refs": ["Module 7: OECD AI Principles"]
+    },
+    {
+      "id": "P2-Q048",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": null,
+      "stem": "Which is NOT one of the NIST AI RMF's core functions?",
+      "options": ["Map", "Measure", "Manage", "Monitor"],
+      "correctIndex": 3,
+      "explanation": "The four functions are Map, Measure, Manage, Govern — \"Monitor\" is not one.",
+      "refs": ["Module 7: NIST AI RMF Functions"]
+    },
+    {
+      "id": "P2-Q049",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following best describes supervised learning?",
+      "options": ["Learning from unlabeled data", "Learning from labeled input-output pairs", "Learning through trial and error", "Learning without any data"],
+      "correctIndex": 1,
+      "explanation": "Supervised learning uses labeled examples to train models to make predictions on new data.",
+      "refs": ["Module 1: Machine Learning Paradigms"]
+    },
+    {
+      "id": "P2-Q050",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following represents a fairness principle in AI?",
+      "options": ["Maximizing computational efficiency", "Ensuring equitable treatment across different groups", "Minimizing development costs", "Increasing processing speed"],
+      "correctIndex": 1,
+      "explanation": "Fairness in AI focuses on equitable treatment and avoiding discrimination across different demographic groups.",
+      "refs": ["Module 2: AI Fairness Principles"]
+    },
+    {
+      "id": "P2-Q051",
+      "module": "Foundations",
+      "scenarioId": null,
+      "stem": "Which of the following is an example of artificial general intelligence (AGI)?",
+      "options": ["A system that can reason across domains and match human cognition", "A chess program that beats grandmasters", "A spam filter for email", "A calculator app"],
+      "correctIndex": 0,
+      "explanation": "That's the definition of AGI — human-level reasoning across tasks.",
+      "refs": ["Module 1: AGI Definition"]
+    },
+    {
+      "id": "P2-Q052",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following best illustrates a subjective harm?",
+      "options": ["A patient denied healthcare by biased AI", "A person feels stigmatized after being misidentified by a facial recognition system", "A company loses reputation after a biased AI decision", "Increased carbon emissions from model training"],
+      "correctIndex": 1,
+      "explanation": "This is a subjective harm (emotional, dignity-related).",
+      "refs": ["Module 2: Subjective Harm"]
+    },
+    {
+      "id": "P2-Q053",
+      "module": "Impacts & Principles",
+      "scenarioId": null,
+      "stem": "Which of the following is NOT a principle of trustworthy AI?",
+      "options": ["Transparency", "Accountability", "Human-centricity", "Profit maximization"],
+      "correctIndex": 3,
+      "explanation": "Transparency, accountability, and human-centricity are principles of trustworthy AI; profit is not.",
+      "refs": ["Module 2: Trustworthy AI Principles"]
+    },
+    {
+      "id": "P2-Q054",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which governance structure balances central control with local flexibility?",
+      "options": ["Centralized", "Decentralized", "Hybrid", "Outsourced"],
+      "correctIndex": 2,
+      "explanation": "Hybrid balances central governance with regional/local flexibility.",
+      "refs": ["Module 3: Hybrid Governance"]
+    },
+    {
+      "id": "P2-Q055",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which stakeholder is primarily responsible for ensuring conformity assessments are completed before placing a system on the EU market?",
+      "options": ["Distributor", "Deployer", "Provider", "End-user"],
+      "correctIndex": 2,
+      "explanation": "Providers are responsible for conformity assessments before EU market placement.",
+      "refs": ["Module 3: Provider Responsibilities"]
+    },
+    {
+      "id": "P2-Q056",
+      "module": "Governance Models",
+      "scenarioId": null,
+      "stem": "Which factor is LEAST relevant when tailoring an organization's AI governance strategy?",
+      "options": ["Size and maturity of the organization", "Industry sector and products/services", "Risk tolerance and objectives", "Sales revenue targets"],
+      "correctIndex": 3,
+      "explanation": "Governance strategy considers organization size, sector, and risk tolerance — not sales goals.",
+      "refs": ["Module 3: Governance Strategy Factors"]
+    },
+    {
+      "id": "P2-Q057",
+      "module": "Planning AI Projects",
+      "scenarioId": null,
+      "stem": "In the risk-mitigation hierarchy, which action is considered the highest (most preferred) level of risk control?",
+      "options": ["Accept the residual risk with compensating controls", "Transfer risk to a vendor via contract", "Reduce risk by adding guardrails and tests", "Eliminate the risky feature or redesign the use case"],
+      "correctIndex": 3,
+      "explanation": "Eliminating the risk is at the top of the mitigation hierarchy.",
+      "refs": ["Module 4: Risk Mitigation Hierarchy"]
+    },
+    {
+      "id": "P2-Q058",
+      "module": "Transparency Artifacts",
+      "scenarioId": null,
+      "stem": "Which artifact provides a structured summary of model purpose, data, metrics, and limitations?",
+      "options": ["Data Protection Impact Assessment (DPIA)", "Model card", "Risk register", "Audit log"],
+      "correctIndex": 1,
+      "explanation": "Model cards summarize purpose, data, metrics, and limitations.",
+      "refs": ["Module 4: Model Cards"]
+    },
+    {
+      "id": "P2-Q059",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "Which deployment model offers the highest data control but requires the most capital investment?",
+      "options": ["Cloud", "On-premise", "Edge", "Hybrid"],
+      "correctIndex": 1,
+      "explanation": "On-prem gives maximum data control, but requires high capital investment.",
+      "refs": ["Module 5: On-Premise Deployment"]
+    },
+    {
+      "id": "P2-Q060",
+      "module": "Monitoring & Drift",
+      "scenarioId": null,
+      "stem": "What is the best signal of data drift in a deployed model?",
+      "options": ["Drop in accuracy against a test set", "Shift in feature distributions compared to training data", "Scheduled retraining every six months", "Longer model inference time"],
+      "correctIndex": 1,
+      "explanation": "Data drift = changes in input feature distributions; accuracy drops usually signal concept drift.",
+      "refs": ["Module 5: Data Drift Detection"]
+    }
+  ],
+  "scenarios": {}
+}

@@ -1,0 +1,265 @@
+{
+  "paperId": "paper-03",
+  "title": "AIGP Mock Paper 3 - Scenario Focus",
+  "minutes": 150,
+  "items": [
+    {
+      "id": "P3-Q001",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-A",
+      "stem": "What type of harm does this bias represent?",
+      "options": ["Subjective harm", "Allocative harm", "Environmental harm", "Organizational harm"],
+      "correctIndex": 1,
+      "explanation": "Allocative harms deny access to resources or opportunities (like loans).",
+      "refs": ["Module 2: Harms Taxonomy - Allocative Harm"]
+    },
+    {
+      "id": "P3-Q002",
+      "module": "Planning AI Projects",
+      "scenarioId": "SCEN-A",
+      "stem": "What is the most appropriate mitigation before deployment?",
+      "options": ["Proceed to deployment with monitoring", "Rebalance the training data and test subgroup performance", "Increase loan interest rates for all groups", "Outsource decisions to another AI"],
+      "correctIndex": 1,
+      "explanation": "Bias mitigation requires data balancing and subgroup fairness testing before launch.",
+      "refs": ["Module 4: Bias Mitigation Strategies"]
+    },
+    {
+      "id": "P3-Q003",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-B",
+      "stem": "Which trustworthy AI principle is MOST at risk?",
+      "options": ["Accountability", "Transparency / Explainability", "Human-centricity", "Robustness"],
+      "correctIndex": 1,
+      "explanation": "Black-box models without interpretability undermine transparency.",
+      "refs": ["Module 2: Trustworthy AI Principles"]
+    },
+    {
+      "id": "P3-Q004",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-B",
+      "stem": "What governance measure should the provider adopt?",
+      "options": ["Ban use of AI in diagnostics", "Document model decisions with explainability tools (e.g., LIME/SHAP) and train doctors", "Hide outputs to avoid confusion", "Require only AI engineers to review results"],
+      "correctIndex": 1,
+      "explanation": "Explainability artifacts and user training improve oversight.",
+      "refs": ["Module 3: Governance for Explainability"]
+    },
+    {
+      "id": "P3-Q005",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-C",
+      "stem": "Which harm category does this primarily illustrate?",
+      "options": ["Group harm", "Organizational harm", "Environmental harm", "Subjective harm"],
+      "correctIndex": 0,
+      "explanation": "Affects fairness for demographic groups, not just individuals.",
+      "refs": ["Module 2: Group Harm Classification"]
+    },
+    {
+      "id": "P3-Q006",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-C",
+      "stem": "What governance approach should the city prioritize?",
+      "options": ["Centralized model only at the police level", "Ignore pilot results until public complaints grow", "Independent ethics review + community consultation before deployment", "Deploy system broadly for deterrence"],
+      "correctIndex": 2,
+      "explanation": "Stakeholder engagement and ethics review are key governance tools.",
+      "refs": ["Module 3: Public Sector AI Governance"]
+    },
+    {
+      "id": "P3-Q007",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-D",
+      "stem": "Which responsible AI principle addresses this concern?",
+      "options": ["Robustness", "Data minimization and storage limitation", "Human oversight", "Transparency"],
+      "correctIndex": 1,
+      "explanation": "Privacy principles require only necessary data, stored for limited duration.",
+      "refs": ["Module 2: Privacy and Data Minimization"]
+    },
+    {
+      "id": "P3-Q008",
+      "module": "Monitoring & Drift",
+      "scenarioId": "SCEN-D",
+      "stem": "Which deployment strategy is most appropriate?",
+      "options": ["Public cloud with no controls", "Hybrid approach: student data stored locally, models updated via secure cloud", "On-prem only for every school", "Edge-only with no updates"],
+      "correctIndex": 1,
+      "explanation": "Hybrid balances privacy and scalability.",
+      "refs": ["Module 5: Educational AI Deployment"]
+    },
+    {
+      "id": "P3-Q009",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-E",
+      "stem": "What type of harm is most relevant here?",
+      "options": ["Allocative harm", "Organizational harm", "Environmental harm", "Subjective harm"],
+      "correctIndex": 2,
+      "explanation": "Energy/carbon footprint impacts the environment.",
+      "refs": ["Module 2: Environmental Harm from AI"]
+    },
+    {
+      "id": "P3-Q010",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-E",
+      "stem": "What is the most appropriate governance response?",
+      "options": ["Ignore energy use to focus on accuracy", "Conduct environmental impact assessments and optimize training (e.g., efficient architectures, renewable-powered data centers)", "Switch all models to proprietary closed systems", "Outsource training to a third party without controls"],
+      "correctIndex": 1,
+      "explanation": "Governance includes environmental risk management and sustainability measures.",
+      "refs": ["Module 3: Environmental AI Governance"]
+    },
+    {
+      "id": "P3-Q011",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-F",
+      "stem": "How would MediScan's diagnostic tool be classified under the EU AI Act?",
+      "options": ["Minimal risk", "Limited risk", "High risk", "Prohibited"],
+      "correctIndex": 2,
+      "explanation": "AI systems used in healthcare/medical diagnosis are explicitly listed as high-risk in Annex III of the EU AI Act.",
+      "refs": ["Module 6: EU AI Act Healthcare Classification"]
+    },
+    {
+      "id": "P3-Q012",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-F",
+      "stem": "What governance action should MediScan prioritize before wider deployment?",
+      "options": ["Deploy the system and collect complaints for 6 months", "Expand datasets to include diverse populations and conduct subgroup performance testing", "Add a disclaimer to the hospital's website", "Outsource risk management to local hospitals"],
+      "correctIndex": 1,
+      "explanation": "To address demographic bias, MediScan must diversify training data and evaluate model performance across population subgroups.",
+      "refs": ["Module 3: Healthcare AI Bias Mitigation"]
+    },
+    {
+      "id": "P3-Q013",
+      "module": "Transparency Artifacts",
+      "scenarioId": "SCEN-F",
+      "stem": "Which transparency measure would BEST support responsible deployment in hospitals?",
+      "options": ["Provide only raw source code to clinicians", "Offer model cards and explainability tools (e.g., SHAP) to doctors, plus patient-facing summaries", "Prohibit clinicians from questioning AI outputs", "Require all patients to sign liability waivers"],
+      "correctIndex": 1,
+      "explanation": "Transparency requires model documentation, explainability tools, and clear communication to both clinicians and patients.",
+      "refs": ["Module 4: Healthcare AI Transparency"]
+    },
+    {
+      "id": "P3-Q014",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-G",
+      "stem": "How would FinCheck's credit scoring system be classified under the EU AI Act?",
+      "options": ["Limited risk", "High risk", "Minimal risk", "Prohibited"],
+      "correctIndex": 1,
+      "explanation": "Annex III explicitly lists credit scoring and access to financial services as high-risk AI systems.",
+      "refs": ["Module 6: EU AI Act Financial Services"]
+    },
+    {
+      "id": "P3-Q015",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-G",
+      "stem": "Which governance action is MOST appropriate before expanding to new markets?",
+      "options": ["Deploy system and monitor complaints for 12 months", "Use only U.S. data for training", "Conduct subgroup fairness testing, diversify datasets, and document bias mitigation steps", "Remove demographic data and assume model is unbiased"],
+      "correctIndex": 2,
+      "explanation": "Responsible AI governance requires testing for bias, diversifying data, and documenting mitigation strategies.",
+      "refs": ["Module 3: Cross-Market AI Governance"]
+    },
+    {
+      "id": "P3-Q016",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-G",
+      "stem": "Which of the following is correct regarding FinCheck's obligations across jurisdictions?",
+      "options": ["In Canada, AIDA applies only to government AI projects", "In the EU, the model would be exempt because it is privately developed", "In the U.S., a single federal AI Act governs credit scoring", "In the EU it is high-risk; in Canada it is high-impact under AIDA; in the U.S. state/local regulators may impose transparency and fairness obligations"],
+      "correctIndex": 3,
+      "explanation": "EU = high-risk (Annex III); Canada = high-impact system under AIDA; U.S. = no federal AI Act; regulation is sectoral + state/local (e.g., bias audits, FTC/EEOC guidance).",
+      "refs": ["Module 7: Cross-Jurisdictional AI Compliance"]
+    },
+    {
+      "id": "P3-Q017",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-H",
+      "stem": "What type of harm is MOST directly implicated by the AI's lower scholarship recommendations for certain applicants?",
+      "options": ["Subjective harm", "Environmental harm", "Allocative harm", "Organizational harm"],
+      "correctIndex": 2,
+      "explanation": "Applicants are denied opportunities/resources → an allocative harm.",
+      "refs": ["Module 2: Allocative Harm in Education"]
+    },
+    {
+      "id": "P3-Q018",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-H",
+      "stem": "Which governance measure would BEST address admissions staff concerns?",
+      "options": ["Outsource decisions entirely to AI", "Implement explainability tools, provide model cards, and train staff on interpreting outputs", "Require staff to ignore the AI's recommendation", "Publish the AI's source code to applicants"],
+      "correctIndex": 1,
+      "explanation": "Responsible governance requires transparency artifacts (model cards, explainability) and user training, not blind trust or open-source code dumping.",
+      "refs": ["Module 3: Educational AI Governance"]
+    },
+    {
+      "id": "P3-Q019",
+      "module": "EU AI Act & Obligations",
+      "scenarioId": "SCEN-H",
+      "stem": "How would this AI admissions tool likely be classified?",
+      "options": ["Minimal risk", "Limited risk", "High risk under the EU AI Act (education decisions)", "Prohibited use under the EU AI Act"],
+      "correctIndex": 2,
+      "explanation": "Annex III lists AI systems in education/admissions as high-risk.",
+      "refs": ["Module 6: EU AI Act Educational Classification"]
+    },
+    {
+      "id": "P3-Q020",
+      "module": "Impacts & Principles",
+      "scenarioId": "SCEN-I",
+      "stem": "What governance risk is most evident in this scenario?",
+      "options": ["Environmental harm", "Discrimination leading to group harms and bias in hiring", "Overfitting due to small training data", "Excessive transparency disclosures"],
+      "correctIndex": 1,
+      "explanation": "The system disadvantages protected groups → a bias/fairness harm.",
+      "refs": ["Module 2: Hiring Bias and Group Harm"]
+    },
+    {
+      "id": "P3-Q021",
+      "module": "Governance Models",
+      "scenarioId": "SCEN-I",
+      "stem": "What is the most appropriate mitigation step before rollout?",
+      "options": ["Ignore bias and launch to collect feedback", "Publish all training datasets online for transparency", "Conduct bias audits, diversify datasets, and retrain the model; provide fairness documentation to clients", "Limit the tool's use to small companies only"],
+      "correctIndex": 2,
+      "explanation": "Governance requires bias testing, dataset diversification, retraining, and transparency documentation before deployment.",
+      "refs": ["Module 3: Pre-Rollout Bias Mitigation"]
+    },
+    {
+      "id": "P3-Q022",
+      "module": "Global Standards & Frameworks",
+      "scenarioId": "SCEN-I",
+      "stem": "Which is the most accurate statement about legal obligations in different jurisdictions?",
+      "options": ["In the EU, hiring AI is minimal risk, so no obligations apply", "In the EU, hiring AI is high-risk; in Canada it is high-impact under AIDA; in NYC it requires independent bias audits and candidate notification", "In the U.S., federal law bans AI in hiring", "In Canada, AIDA exempts private sector recruitment AI"],
+      "correctIndex": 1,
+      "explanation": "EU: Annex III → hiring = high-risk. Canada: AIDA → high-impact system. NYC LL144: requires bias audits + candidate notices.",
+      "refs": ["Module 7: Cross-Jurisdictional Hiring Compliance"]
+    }
+  ],
+  "scenarios": {
+    "SCEN-A": {
+      "title": "SmartLoan AI Credit Scoring",
+      "description": "SmartLoan Bank develops an AI system to automate credit scoring. The training dataset is 10 years old and heavily reflects past lending patterns. Early pilots show the model consistently assigns lower scores to applicants from certain neighborhoods."
+    },
+    "SCEN-B": {
+      "title": "HealthAI Diagnostics",
+      "description": "HealthAI designs an AI system to analyze medical images. Doctors complain that the system provides highly accurate results but is difficult to interpret."
+    },
+    "SCEN-C": {
+      "title": "CitySafe Surveillance",
+      "description": "CitySafe installs AI-powered cameras in public transport hubs. The AI flags 'suspicious behavior' and alerts police. Pilot tests show disproportionate flagging of young men from minority groups."
+    },
+    "SCEN-D": {
+      "title": "EduTutor AI",
+      "description": "EduTutor creates an adaptive learning platform that tailors lessons to students' performance. Parents raise concerns about privacy and how long children's data is stored."
+    },
+    "SCEN-E": {
+      "title": "GreenAI Training",
+      "description": "A start-up trains a large AI model using cloud GPUs. The energy consumption is extremely high, raising sustainability concerns."
+    },
+    "SCEN-F": {
+      "title": "MediScan AI in Hospitals",
+      "description": "MediScan is a multinational healthcare technology provider. It has developed an AI diagnostic tool that analyzes MRI scans to detect early signs of cancer. The system is trained primarily on datasets from Western Europe. Pilot deployments show high accuracy overall, but doctors in Asia report frequent misclassifications for patients with different demographics. The system is intended for deployment in the EU, U.S., and Canada. Hospitals plan to rely heavily on its assessments, though clinicians will still make final diagnoses. Regulators and patient advocacy groups have raised concerns about bias, transparency, and data governance."
+    },
+    "SCEN-G": {
+      "title": "FinCheck AI for Credit Scoring",
+      "description": "FinCheck, a fintech startup, develops an AI system that automates consumer credit scoring. The model draws on historical loan data, including credit history, location, and spending behavior. Early pilots in Europe show the system accurately predicts defaults overall, but advocacy groups claim it disadvantages applicants from rural and minority communities. FinCheck wants to expand to the EU, U.S., and Canada. Regulators in the EU are concerned about discriminatory impacts, while Canadian authorities are reviewing whether FinCheck falls under AIDA as a high-impact system. U.S. state regulators are questioning transparency in automated lending."
+    },
+    "SCEN-H": {
+      "title": "UniLearn AI Admissions System",
+      "description": "UniLearn University implements an AI system to support admissions decisions. The model reviews applications, evaluates grades, essays, and extracurriculars, and produces a recommendation score. After its first cycle of use, advocacy groups raise concerns: The system consistently recommends fewer scholarships for applicants from lower-income regions. Admissions staff say the system provides only a score, without explanations. The university plans to deploy the tool in both the EU and Canada for next year's cycle."
+    },
+    "SCEN-I": {
+      "title": "HireSmart AI Recruitment Tool",
+      "description": "HireSmart is a global HR technology company offering an AI-powered recruitment platform. The tool screens résumés, ranks candidates, and provides shortlists to employers. During pilot testing: Civil rights groups raise concerns that women and minority candidates are ranked lower than others with similar qualifications. HR managers say the tool's scoring is opaque and provides no rationale for rankings. The company plans to roll out the tool in the EU, Canada, and the U.S. (including New York City)."
+    }
+  }
+}
